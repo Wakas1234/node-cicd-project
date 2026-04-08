@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('CI/CD Working Successfully 🚀 - Auto Deployed via Jenkins');
+  res.send('TEST SUCCESS 🚀');
 });
 
 app.listen(3000, () => {
